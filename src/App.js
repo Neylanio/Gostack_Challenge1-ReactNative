@@ -34,7 +34,7 @@ export default function App() {
       <ScrollView style={styles.container}>
         { repositories.map(repository => (
 
-          <View key={repository.id} style={styles.repositoryContainer}>
+          <View key={repository.id} style={styles.repositoryContainer}> 
             <Text style={styles.repository}>{repository.title}</Text>
 
             <View style={styles.techsContainer}>
